@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+  "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "ignoreDeprecations": "6.0",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "index.html"],
+  "exclude": ["node_modules", "dist", "build"]
+}
